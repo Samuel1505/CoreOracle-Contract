@@ -1,0 +1,16 @@
+{
+  "contract": "PrizePoolPrediction",
+  "address": "0xbe00F9a79aC39CD3FC8802bA1BF94Eae98C9d3f5",
+  "network": "coreTestnet2",
+  "chainId": 1114,
+  "deployer": "0x6BF7d6b94282BD48ff458599aDafA268BcB009FF",
+  "timestamp": "2025-08-12T06:02:31.200Z",
+  "deploymentTx": "0x1269c89d21373cb380fbeca67524b270edc82d1147863f4077afc31fab7bf89d",
+  "features": [
+    "Automatic prize distribution",
+    "Dispute resolution system",
+    "Community voting with stakes",
+    "Creator-only initial resolution",
+    "Prize redistribution after disputes"
+  ]
+}

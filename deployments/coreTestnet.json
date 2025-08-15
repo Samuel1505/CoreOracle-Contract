@@ -1,0 +1,9 @@
+{
+  "contract": "PrizePoolPrediction",
+  "address": "0x430B8C81300C78e1DD07C9CA4a54A48a1559ce89",
+  "network": "coreTestnet",
+  "deployer": "0x6BF7d6b94282BD48ff458599aDafA268BcB009FF",
+  "owner": "0x6BF7d6b94282BD48ff458599aDafA268BcB009FF",
+  "timestamp": "2025-08-10T05:36:10.701Z",
+  "deploymentTx": "0x4cec83b019cc342e3b8a32b81b875621f97199e6e52d309044cbab2e3a8cda96"
+}
