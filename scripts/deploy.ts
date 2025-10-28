@@ -51,7 +51,7 @@ async function main() {
   console.log(`📋 Contract: PrizePoolPrediction`);
   console.log(`📍 Address: ${contractAddress}`);
   console.log(`🌐 Network: ${network.name}`);
-  console.log(`👤 Owner: ${await predictionContract.owner()}`);
+  // console.log(`👤 Owner: ${await predictionContract.owner()}`);
   console.log(`🔗 Etherscan: ${network.name !== "hardhat" && network.name !== "localhost" ? `https://${network.name === "sepolia" ? "sepolia." : ""}etherscan.io/address/${contractAddress}` : "N/A"}`);
   console.log("=".repeat(50));
 
@@ -61,7 +61,8 @@ async function main() {
     address: contractAddress,
     network: network.name,
     deployer: (await ethers.getSigners())[0].address,
-    owner: await predictionContract.owner(),
+    owner: (await ethers.getSigners())[0].address,
+
     timestamp: new Date().toISOString(),
     deploymentTx: deploymentTx?.hash
   };
